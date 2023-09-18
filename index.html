@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+<link rel="stylesheet" type="text/css" href="style.css">
+
+<!-- jsCalendar v1.4.3 Javascript and CSS from jsdelivr npm cdn -->
+<script src="https://cdn.jsdelivr.net/npm/simple-jscalendar@1.4.3/source/jsCalendar.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/simple-jscalendar@1.4.3/source/jsCalendar.min.css">
+</head>
+<body>
+  <nav class="nav">
+    <ul class="navList">
+      <li class="navItem navActive">Baidarės</li>
+      <li class="navItem">Irklentės</li>
+      <li class="navItem">Kontaktai</li>
+    </ul>
+  </nav>
+  <div class="backgroundImageContainer">
+    <div class="backgroundImage backgroundImageOne"></div>
+    <div class="backgroundImage backgroundImageTwo"></div>
+    <div class="backgroundImage backgroundImageThree"></div>
+    <div class="imageOverlay"></div>
+    <div class="imageOverlay2"></div>
+  </div>
+  <div class="main">
+    <div class="rightSide">
+      <h1 class="rightSideText rightSideH1">Pasinerk į Vasaros Nuotykį!</h1>
+      <h1 class="rightSideText rightSide2H1">Atrask Nuotykius Ant Vandens!</h1>
+      <h1 class="rightSideText rightSide3H1">Iškilo Klausimų, Parašykite Mums</h1>
+    </div>
+    <div class="leftSide">
+      <div class="kayakSup">
+        <div class="text">
+          <p class="textKayak kayakItem" id="textKayak">Baidarių nuoma</p>
+          <p class="textSup supItem" id="textSup">SUP nuoma</p>
+        </div>
+        <div class="buttons">
+          <button class="btns btnKayak kayakItem">Rerervuoti Baidarę!</button>
+          <button class="btns btnSup supItem">Rerervuoti SUP!</button>
+        </div>
+      </div>      
+      <form action="" class="contact">
+        <div class="contactForm">
+          <input type="text" class="contactFormElement" name="name" id="name" placeholder="Vardas, Pavardė">
+        </div>
+        <div class="contactForm">
+          <input type="text" class="contactFormElement" name="email" id="email" placeholder="E.Paštas">      
+        </div>
+        <div class="contactForm">
+          <textarea class="contactFormElement" rows="7">Text Here</textarea>
+        </div>
+        <div class="contactForm">
+          <button class="contactBtn"><i class="fa-solid fa-paper-plane"></i>Siųsti!</button>
+        </div>
+      </form>
+    </div>
+  </div> 
+  <div class="overlay overlayActive">
+    <div class="kayakOverlay">
+    <div class="overlayKayakX">X</div>
+      <div class="auto-jsCalendar calendarJsK"></div>
+      <form action="" method="">
+          <div class="date">
+            <label>Pasirinkite pradžią</label>
+            <input type="date" name="dateStart">
+          </div>
+          <div class="date">
+            <label>Pasirinkite Pabaigą</label>
+            <input type="date" name="dateEnd">
+          </div>
+          <button class="dateBtn date">Rezervuoti!</button>
+      </form>
+    </div>
+    <div class="supOverlay">
+    <div class="overlaySupX">X</div>
+      <div class="auto-jsCalendar calendarJsS"></div>
+      <form action="" method="">
+          <div class="date">
+            <label>Pasirinkite pradžią</label>
+            <input type="date" name="dateStart">
+          </div>
+          <div class="date">
+            <label>Pasirinkite Pabaigą</label>
+            <input type="date" name="dateEnd">
+          </div>
+          <button class="dateBtn date">Rezervuoti!</button>
+      </form>
+    </div>
+  </div>
+  <footer class="footer">
+    <div class="footerSocial">
+      <div class="socialFooter"><i class="fa-brands fa-facebook"></i></div>
+      <div class="socialFooter"><i class="fa-brands fa-square-instagram"></i></div>
+      <div class="socialFooter"><i class="fa-solid fa-envelope"></i></div>
+    </div> 
+    <div>2003</div>    
+  </footer> 
+   <!-- 
+ 
+
+
+      <div class="main">
+         <div class="leftSideItem leftSideItem1">
+           <div class="text">Baidarių nuoma</div>
+           <div class="btn">
+             <button>Rerervuoti Baidarę!</button>
+           </div>
+         </div>
+         <div class="leftSideItem leftSideItem2">
+           <div class="text">SUP nuoma</div>
+           <div class="btn">
+             <button>Rerervuoti SUP!</button>
+           </div>
+         </div>
+         <div class="leftSideItem leftSideItem3">
+           <div class="text">Kontaktai</div>
+           <div class="btn">
+             <button>Parašykite Mums!</button>
+           </div>
+         </div>
+      </div>
+
+-->
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js"></script>
+  <script src="https://unpkg.com/split-type"></script>
+  <script src="javascript.js"></script>
+</body>
+</html>
