@@ -2,4 +2,4 @@
 
 Demo page: https://pvit.tech/kayaksup
 
-Kayak and Sup reservation page. Only the frontend version. Developed using HTML. CSS Javascript (animation GSAP3);
+Kayak and Sup reservation page. Only the front-end version. Developed using HTML. CSS Javascript (animation GSAP3);
